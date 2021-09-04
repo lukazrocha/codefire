@@ -15,6 +15,7 @@ class Header extends Component{
                             <li><a href="#">Nosso Time</a></li>
                             <li><a href="#">Contato</a></li>
                         </ul>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
