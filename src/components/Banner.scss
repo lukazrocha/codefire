@@ -1,35 +1,62 @@
 
+.content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+}
+
 .banner {
     position: relative;
-    top: 5em;
-    background-color: #000;
-    width: 100%;
     height: 35em;
     z-index: -1;
-    
-    p {
+    background-image: url(../images/solitude_by_atlas091_d9s851d-pre.jpg);
+    background-position: 50%;
+    background-size: cover;
+
+    .container-banner{
+        position: relative;
+        top: 40%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1140px;  
+    }
+
+    .container-banner > span {
         color: white;
-        background: linear-gradient(180deg,#FFF 35%,#705137);
+        background: linear-gradient(180deg,#FFF 35%,#837a73);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 8em;
-        text-align: center;
-        line-height: 4em;
         font-weight: 700;
     }
 
-    background-image: url(../images/solitude_by_atlas091_d9s851d-pre.jpg);
-    background-position: 50%;
-    background-size: cover;
-    min-height: 100vh;
-    max-height: 999px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+    .badge {
+        width: 3em;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 2em;
+        background-color: black;
+        color: white;
+        padding: 5px 4px;
+        position: absolute;
+        display: inline-block;
+    }
+
+
 }
 
 .vh-100 {
     height: 100vh !important;
+}
+
+.overflow-hidden {
     overflow: hidden !important;
 }
