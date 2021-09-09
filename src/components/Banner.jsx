@@ -11,6 +11,9 @@ class Banner extends Component{
                         <div className="badge">
                             <span>dev</span>
                         </div>
+                        <div className="slogan">
+                            <span>Desenvolvendo o fogo que há em você!</span>
+                        </div>
                     </div>
                 </div>
             </div>
