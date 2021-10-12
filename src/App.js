@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.scss';
-import Header from './components/Header.jsx'
-import Banner from './components/Banner.jsx'
-import Section from './components/Section';
+import {React} from "react"
+import './App.scss'
+import Header from './components/Header'
+import Banner from './components/Banner'
+import Section from './components/Section'
 
 function App() {
   return (

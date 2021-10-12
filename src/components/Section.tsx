@@ -6,15 +6,30 @@ class Section extends Component {
         return(
             <>
                 <div className="how-we-work">
-                    <div className="img-dev"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptas vero voluptate debitis consequuntur, beatae, quaerat, quae repellat eveniet nemo 
-                    eligendi magnam tenetur asperiores veritatis modi dignissimos obcaecati quis mollitia
-                    maiores!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit omnis aliquid placeat nemo minima molestiae. 
-                    Atque repellendus, consequuntur nobis totam unde beatae nemo deserunt officia 
-                    odit aliquid voluptas aperiam mollitia!
-                    </p>
+                    <div className="content-row-1">
+                        <div className="content-row-image-1">
+                            <img src="../images/undraw_Developer_activity_re_39tg.svg" alt="" />
+                        </div>
+                        <div className="content-row-text-1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptas vero voluptate debitis consequuntur, beatae, quaerat, quae repellat eveniet nemo 
+                            eligendi magnam tenetur asperiores veritatis modi dignissimos obcaecati quis mollitia
+                            maiores!
+                            </p>
+                        </div>
+                    </div>
+                    <div className="content-row-2">
+                        <div className="content-row-text-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptas vero voluptate debitis consequuntur, beatae, quaerat, quae repellat eveniet nemo 
+                            eligendi magnam tenetur asperiores veritatis modi dignissimos obcaecati quis mollitia
+                            maiores!
+                            </p>
+                        </div>
+                        <div className="content-row-image-2">
+                            <img src="../images/undraw_Developer_activity_re_39tg.svg" alt=""/>
+                        </div>
+                    </div>              
                     <div className="clear"></div>
                 </div>
                 
